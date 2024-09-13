@@ -23,7 +23,7 @@ def decrypt(dtext,n):
     return decrypted
 
 def brutefore(btext):
-    for key in range(1, len(btext) + 1):
+    for key in range(1, 25):
         brutetext = ''
         for i in range(len(btext)):
             ch = btext[i]
